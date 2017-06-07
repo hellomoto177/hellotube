@@ -1,4 +1,9 @@
+var WebpackNotifierPlugin = require('webpack-notifier');
+
 module.exports = {
+  plugins: [
+    new WebpackNotifierPlugin(),
+  ],
   entry: [
     './src/index.js'
   ],
